@@ -205,7 +205,7 @@ function fetchJSON(url, callback) {
         });
 }
 
-let root = window.location.pathname;
+let root = window.location.origin + window.location.pathname;
 if (root.endsWith('index.html')) {
     root = root.slice(0, -'index.html'.length);
 }
