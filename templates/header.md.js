@@ -1,3 +1,3 @@
 md`
-Bringing Color to Life in San Francisco
+Bringing Color to Life
 `
