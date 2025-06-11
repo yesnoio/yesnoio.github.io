@@ -1,0 +1,136 @@
+/* Variable definitions. */
+/* https://www.w3schools.com/cssref/func_rgb.php */
+/* https://www.w3schools.com/cssref/func_rgba.php */
+/* https://www.google.com/search?q=color+picker */
+
+:root {
+	--gallery-0: url(../images/gallery-0.jpg);
+	--gallery-1: url(../images/gallery-1.jpg);
+	--gallery-2: url(../images/gallery-2.jpg);
+	--gallery-3: url(../images/gallery-3.jpg);
+	--gallery-4: url(../images/gallery-4.jpg);
+	--gallery-5: url(../images/gallery-5.jpg);
+	--gallery-6: url(../images/gallery-6.jpg);
+}
+
+:root,
+:root.all.day {
+	--body-bg: url(../images/body-bg-all-day-0.jpg);
+	--bg-0: url(../images/bg-all-day-0.jpg);
+	--bg-1: url(../images/bg-all-day-1.jpg);
+	--bg-2: url(../images/bg-all-day-2.jpg);
+	--bg-3: url(../images/bg-all-day-3.jpg);
+	--bg-4: url(../images/bg-all-day-4.jpg);
+	--bg-5: url(../images/bg-all-day-5.jpg);
+	--bg-6: url(../images/bg-all-day-6.jpg);
+	--bg-7: url(../images/bg-all-day-7.jpg);
+	--bg-8: url(../images/bg-all-day-8.jpg);
+	--bg-9: url(../images/bg-all-day-9.jpg);
+	--bg-10: url(../images/bg-all-day-10.jpg);
+	--bg-11: url(../images/bg-all-day-11.jpg);
+	--bg-12: url(../images/bg-all-day-12.jpg);
+	--bg-13: url(../images/bg-all-day-13.jpg);
+	--bg-14: url(../images/bg-all-day-14.jpg);
+	--bg-15: url(../images/bg-all-day-15.jpg);
+	--bg-16: url(../images/bg-all-day-16.jpg);
+	--bg-17: url(../images/bg-all-day-17.jpg);
+	--bg-18: url(../images/bg-all-day-18.jpg);
+	--bg-19: url(../images/bg-all-day-19.jpg);
+	--bg-20: url(../images/bg-all-day-20.jpg);
+	--bg-21: url(../images/bg-all-day-21.jpg);
+	--bg-22: url(../images/bg-all-day-22.jpg);
+	--font0: "Julius Sans One";
+	--font1: "Open Sans";
+	--font2: "Lato";
+	--body-text-color-darkest: 74, 63, 53;
+	--body-text-color-dark: 92, 80, 70;
+	--body-text-color: 139, 122, 104;
+	--body-text-color-lightest: 115, 98, 88;
+	--nav-bg-color-darkest: 219, 201, 176;
+	--nav-bg-color-dark: 202, 184, 154;
+	--nav-bg-color: 168, 151, 110;
+	--nav-bg-color-lightest: 185, 167, 132;
+	--nav-text-color-darkest: 62, 49, 40;
+	--nav-text-color-dark: 80, 66, 55;
+	--nav-text-color: 122, 100, 91;
+	--nav-text-color-lightest: 101, 83, 73;
+	--accent-color-darkest: 196, 110, 0;
+	--accent-color-dark: 227, 150, 62;
+	--accent-color: 184, 93, 66;
+	--accent-color-lightest: 242, 161, 84;
+	--footer-color-darkest: 0, 0, 0;
+	--footer-color: 243, 239, 232;
+	--footer-color-lightest: 243, 239, 232;
+	--section-0-bg-color: 243, 239, 232;
+	--section-0-bg-alpha: 0.7;
+	--section-1-bg-color: 224, 215, 202;
+	--section-1-bg-alpha: 0.8;
+	--section-2-bg-color: 206, 192, 172;
+	--section-2-bg-alpha: 0.7;
+	--section-3-bg-color: 187, 169, 142;
+	--section-3-bg-alpha: 0.8;
+	--section-4-bg-color: 169, 145, 112;
+	--section-4-bg-alpha: 0.7;
+	--section-5-bg-color: 187, 169, 142;
+	--section-5-bg-alpha: 0.7;
+	--section-6-bg-color: 206, 192, 172;
+	--section-6-bg-alpha: 0.7;
+	--section-7-bg-color: 224, 215, 202;
+	--section-7-bg-alpha: 0.7;
+	--section-8-bg-color: 243, 239, 232;
+	--section-8-bg-alpha: 0.7;
+}
+
+:root.all.night {
+	--body-bg: url(../images/body-bg-all-night-0.jpg);
+	--bg-0: url(../images/bg-all-night-0.jpg);
+	--bg-1: url(../images/bg-all-night-1.jpg);
+	--bg-2: url(../images/bg-all-night-2.jpg);
+	--bg-3: url(../images/bg-all-night-3.jpg);
+	--bg-4: url(../images/bg-all-night-4.jpg);
+	--bg-5: url(../images/bg-all-night-5.jpg);
+	--bg-6: url(../images/bg-all-night-6.jpg);
+	--bg-7: url(../images/bg-all-night-7.jpg);
+	--bg-8: url(../images/bg-all-night-8.jpg);
+	--font0: "Julius Sans One";
+	--font1: "Open Sans";
+	--font2: "Lato";
+	--body-text-color-darkest: 229, 225, 217;
+	--body-text-color-dark: 212, 206, 197;
+	--body-text-color: 156, 149, 138;
+	--body-text-color-lightest: 179, 172, 161;
+	--nav-bg-color-darkest: 62, 55, 47;
+	--nav-bg-color-dark: 53, 46, 38;
+	--nav-bg-color: 34, 30, 23;
+	--nav-bg-color-lightest: 43, 38, 31;
+	--nav-text-color-darkest: 242, 239, 234;
+	--nav-text-color-dark: 222, 219, 213;
+	--nav-text-color: 181, 177, 172;
+	--nav-text-color-lightest: 201, 198, 193;
+	--accent-color-darkest: 255, 215, 0;
+	--accent-color-dark: 255, 174, 79;
+	--accent-color: 184, 116, 34;
+	--accent-color-lightest: 230, 149, 47;
+	--footer-color-darkest: 0, 0, 0;
+	--footer-color: 255, 174, 79;
+	--footer-color-lightest: 255, 174, 79;
+	--section-0-bg-color: 55, 50, 43;
+	--section-0-bg-alpha: 0.6;
+	--section-1-bg-color: 47, 41, 35;
+	--section-1-bg-alpha: 0.5;
+	--section-2-bg-color: 39, 35, 29;
+	--section-2-bg-alpha: 0.6;
+	--section-3-bg-color: 32, 30, 24;
+	--section-3-bg-alpha: 0.5;
+	--section-4-bg-color: 25, 23, 18;
+	--section-4-bg-alpha: 0.6;
+	--section-5-bg-color: 32, 30, 24;
+	--section-5-bg-alpha: 0.6;
+	--section-6-bg-color: 39, 35, 29;
+	--section-6-bg-alpha: 0.6;
+	--section-7-bg-color: 47, 41, 35;
+	--section-7-bg-alpha: 0.6;
+	--section-8-bg-color: 55, 50, 43;
+	--section-8-bg-alpha: 0.6;
+}
+
